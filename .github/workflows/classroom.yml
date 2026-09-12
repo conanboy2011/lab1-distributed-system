@@ -8,6 +8,9 @@ on:
     branches:
       - master
 
+permissions:
+  contents: read
+  packages: write
 jobs:
   build:
     name: Autograding
